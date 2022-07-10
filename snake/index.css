@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.mainBody {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gameInst {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameInst {
+    margin-top: 50%;
+    display: flex;
+
+}
+
+.gameInst>p {
+    padding: 5px;
+}
+
+.initial {
+    background-color: blueviolet;
+    border: 1px solid black;
+    margin: 1px;
+    border-radius: 50%;
+}
+
+.medium {
+    background-color: coral;
+    border: 1px solid black;
+    margin: 1px;
+    border-radius: 35%;
+}
+
+.large {
+
+    background-color: black;
+    border: 1px solid white;
+    margin: 1px;
+    border-radius: 20%;
+}
+
+.head {
+    background-color: gold;
+    border-radius: 50%;
+}
+
+.fish {
+    background-color: aqua;
+    border-radius: 20%;
+}
+
+.score {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+
+.body__board {
+    height: 80vh;
+    width: 80vh;
+    border: 10px solid red;
+    display: grid;
+    grid-template-rows: repeat(20, 1fr);
+    grid-template-columns: repeat(20, 1fr);
+    background: linear-gradient(rgb(189, 119, 189), rgb(21, 100, 100));
+}
